@@ -8,19 +8,19 @@ import os
 
 
 class Config(object):
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	API_ID = int(os.environ.get("API_ID", 12345))
-	API_HASH = os.environ.get("API_HASH")
+	BOT_TOKEN = os.environ.get("8364856533:AAGyZGaoe5nRiDxMcg9-yWvohYefo9a4lTM")
+	API_ID = int(os.environ.get("39857913", 12345))
+	API_HASH = os.environ.get("61b6cc97b562a773634defb8ca5688c6")
 	STREAMTAPE_API_PASS = os.environ.get("STREAMTAPE_API_PASS", "NoNeed")
 	STREAMTAPE_API_USERNAME = os.environ.get("STREAMTAPE_API_USERNAME", "NoNeed")
-	LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
+	LOG_CHANNEL = int(os.environ.get(" -1003829742176"))
+	UPDATES_CHANNEL = os.environ.get("-1003685810251", None)
 	DOWN_PATH = os.environ.get("DOWN_PATH", "./downloads")
 	PRESET = os.environ.get("PRESET", "ultrafast")
-	OWNER_ID = int(os.environ.get("OWNER_ID", 1445283714))
+	OWNER_ID = int(os.environ.get("7781286450", 1445283714))
 	CAPTION = "By @AHToolsBot"
-	BOT_USERNAME = os.environ.get("BOT_USERNAME", "VideoWatermark_Bot")
-	DATABASE_URL = os.environ.get("DATABASE_URL")
+	BOT_USERNAME = os.environ.get("watermarkaddewr_bot", "VideoWatermark_Bot")
+	DATABASE_URL = os.environ.get("mongodb+srv://valok35926_db_user:aCJTfDtsuQwEb70Q@cluster0.6z9bunt.mongodb.net/?appName=Cluster0")
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
 	ALLOW_UPLOAD_TO_STREAMTAPE = bool(os.environ.get("ALLOW_UPLOAD_TO_STREAMTAPE", False))
 	USAGE_WATERMARK_ADDER = """
