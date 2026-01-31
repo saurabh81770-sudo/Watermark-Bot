@@ -13,7 +13,7 @@ class Config(object):
 	API_HASH = os.environ.get("61b6cc97b562a773634defb8ca5688c6")
 	STREAMTAPE_API_PASS = os.environ.get("STREAMTAPE_API_PASS", "NoNeed")
 	STREAMTAPE_API_USERNAME = os.environ.get("STREAMTAPE_API_USERNAME", "NoNeed")
-	LOG_CHANNEL = int(os.environ.get(" -1003829742176"))
+	LOG_CHANNEL = int(os.environ.get("-1003829742176"))
 	UPDATES_CHANNEL = os.environ.get("-1003685810251", None)
 	DOWN_PATH = os.environ.get("DOWN_PATH", "./downloads")
 	PRESET = os.environ.get("PRESET", "ultrafast")
